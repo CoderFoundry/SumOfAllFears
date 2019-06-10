@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Sum Of All Fears: Coding Challenge</title>
+    <script src="findSum.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="rev-style">
+        <img src="SumOfAllFears.png" class="responsive">
+        <div class="rev-style-headingB">
+            Given a list of numbers and a number k, return whether any two numbers from the list add up to k. For
+            example, given [10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17.
+        </div>
+        <label><span>Enter a Number:</span><input id="sumValue" type="number" name="sum" value="17"></label>
+        <label><span></span><input type="submit" onclick="DisplaySum()" value="Find It"></label>
+        <label><span>Numbers To Search</span>
+            <div id="numList">---</div>
+        </label>
+        <label><br><br><span>Results</span><br>
+            <p id="results"></p>
+        </label>
+    </div>
+
+</body>
+
+</html>
