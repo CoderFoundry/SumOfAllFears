@@ -7,7 +7,7 @@ function FindSumA(numbers, answer) {
     let found = false;
     //[15,3,10,7] startIndex = 0, end Index = 3
     for (let i = 0; i <= numbers.length - 2; i++) {
-        //Loop over the array star with the position after the current value
+        //Loop over the array start with the position after the current value
         for (let y = (i + 1); y <= numbers.length - 1; y++) {
             if (answer == numbers[i] + numbers[y]) {
                 found = true;
